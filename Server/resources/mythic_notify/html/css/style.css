@@ -1,0 +1,85 @@
+body {
+    background-color: transparent !important;
+}
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 0px black;
+}
+
+.div-wrap {
+    display: block;
+    margin-left: 62%;
+    width: 30%;
+    height: 15%;
+    margin-top: 1%;
+    color: white;
+    padding: 1px;
+}
+
+
+.template, .notification {
+    height: 99%;
+    overflow: hidden;
+    position: relative;
+}
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    top: 15;
+    background-color: rgba(51, 112, 165, 0.85);
+    color: #fff;
+    margin: 8px;
+    text-align: center;
+    padding: 8.2px;
+    border-radius: 1px;
+    font-style: normal;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.success {
+    background-color: rgba(21, 100, 15, 0.95);    
+    color: #fff;
+}
+
+.inform {
+    background-color: rgba(51, 112, 165, 0.85);
+    color: #ffffff;
+}
+
+.purple {
+    background-color: rgba(107, 15, 228, 0.75);
+    color: #ffffff;
+}
+
+.error {
+    background-color: rgba(181, 82, 85, 0.85);
+    color: #fff;
+}
+
+.muhittin {
+    background: rgb(255,255,0);
+    color: #000000;
+}
+
+.telefon {
+    background: rgb(240,113,28);
+    color: #FFFFFF;
+}
+
+
+.yemek {
+    background: rgb(204,204,255);
+    color: #FFFFCC;
+}
