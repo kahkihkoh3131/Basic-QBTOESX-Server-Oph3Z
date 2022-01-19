@@ -5,14 +5,12 @@ game 'gta5'
 name 'Some important systems'
 author 'Oph3Z#4326'
 
-client_scripts {
-	'client/*.lua'
-}
-
-server_scripts {
-	'server/*.lua'
+client_script {
+    'client/main.lua',
+    'client/blips.lua',
+    'client/silahcekme.lua'
 }
 
 shared_scripts {
-	'*.lua'
+    'config.lua'
 }
